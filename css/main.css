@@ -1,0 +1,237 @@
+/* inter-tight-regular - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: "Inter Tight";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/inter-tight-v7-latin-regular.woff2") format("woff2");
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* inter-tight-500 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: "Inter Tight";
+    font-style: normal;
+    font-weight: 500;
+    src: url("../fonts/inter-tight-v7-latin-500.woff2") format("woff2");
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* inter-tight-600 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: "Inter Tight";
+    font-style: normal;
+    font-weight: 600;
+    src: url("../fonts/inter-tight-v7-latin-600.woff2") format("woff2");
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* inter-tight-700 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: "Inter Tight";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/inter-tight-v7-latin-700.woff2") format("woff2");
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* righteous-regular - latin_latin-ext */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: "Righteous";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/righteous-v17-latin_latin-ext-regular.woff2") format("woff2");
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: "Righteous";
+    font-style: normal;
+    font-weight: 500;
+    src: url("../fonts/righteous-v17-latin_latin-ext-regular.woff2") format("woff2");
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: "Righteous";
+    font-style: normal;
+    font-weight: 600;
+    src: url("../fonts/righteous-v17-latin_latin-ext-regular.woff2") format("woff2");
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: "Righteous";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/righteous-v17-latin_latin-ext-regular.woff2") format("woff2");
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #14110E;
+    margin: 0;
+    padding: 0;
+    font-family: "Inter Tight";
+}
+
+.container {
+    max-width: 1360px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    padding: 20px 0;
+}
+
+.nav__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 48px;
+}
+
+.nav__link {
+    color: #FFF;
+    font-family: "Inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: "Inter Tight";
+}
+
+.logo {
+    width: 72px;
+    height: 60px;
+    flex-shrink: 0;
+}
+
+
+.navtue__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 48px;
+}
+
+.navtue__link {
+    color: #FFF;
+    font-family: "Inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: "Inter Tight";
+}
+.header__button{
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+.navtue__image {
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+}
+
+.main__sectionone {
+    height: 736px;
+    background-image: url(../images/Rectangle\ 12.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+.main__listone {
+    align-items: flex-end;
+}
+
+.main__itemone {
+    width: 529px;
+}
+.main__itemone:nth-child(2){
+    width: 200px;
+}
+
+.main__title {
+    color: #FFF;
+    font-family: "Righteous";
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    /* 93.6px */
+}
+
+.main__textone {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: "Urbanist";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 180%;
+    /* 36px */
+    text-transform: capitalize;
+}
+
+.main__buttonone {
+    width: 202px;
+    height: 70px;
+    display: inline-flex;
+    padding: 24px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    background-color: #C99E71;
+    cursor: pointer;
+    border: none;
+    color: #FFF;
+    font-family: "Inter Tight";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
